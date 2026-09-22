@@ -8,8 +8,11 @@
 #############################################
 
 # THIS IS WHERE YOU CODE
-print("what is the names of the teams")
-team1 = input()
-
-print("Enter the teams name")
-
+print("Enter the team name?")
+name = input("team name: ")
+wins = int(input("wins: "))
+ties = int(input("ties: "))
+losses = int(input("losses: "))
+points = (wins * 2)+(ties * 1)
+summary = f" team name: {name} wins: {wins} ties: {ties} losses: {losses} points: {points}
+print(summary)
