@@ -8,11 +8,14 @@
 #############################################
 
 # THIS IS WHERE YOU CODE
-print("Enter the team name?")
-name = input("team name: ")
-wins = int(input("wins: "))
-ties = int(input("ties: "))
-losses = int(input("losses: "))
-points = (wins * 2)+(ties * 1)
-summary = f" team name: {name} wins: {wins} ties: {ties} losses: {losses} points: {points}
-print(summary)
+
+teams = []
+
+for i in range(1, 7):
+name = input(“Team name: “)
+wins = int(input(“Wins: “))
+ties = int(input(“Ties: “))
+losses = int(input(“Losses: “))
+
+points = wins 2 + ties 1
+
