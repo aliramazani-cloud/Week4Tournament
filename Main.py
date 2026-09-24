@@ -7,15 +7,18 @@
 # Project Description: See the README file
 #############################################
 
-# THIS IS WHERE YOU CODE
-
-teams = []
-
-for i in range(1, 7):
-name = input(“Team name: “)
-wins = int(input(“Wins: “))
-ties = int(input(“Ties: “))
-losses = int(input(“Losses: “))
-
-points = wins 2 + ties 1
-
+# THIS IS WHERE You code
+top_team_name = ""
+top_points = -1
+for i in range(6):
+    print(f"\nTeam {i+1}:")
+    tournament_name = input("week 4 tournament : ")
+name = input("irish: ")
+wins = int(input("number wins: 1 "))
+losses = int(input("number losses: 1 "))
+ties = int(input("number ties: 3 "))
+if tournament_name == top_team_name:
+    loins
+    wins: 4
+    losses: 2
+    ties: 1
